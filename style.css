@@ -11,9 +11,10 @@
 
 .wrapper{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: linear-gradient(#6b63fb , #63b55d);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -73,4 +74,13 @@
     font-size: 18px;
     color: #6b63fb;
     font-weight: 600;
+}
+
+/*for plus two percentage*/
+.box-2{
+    margin-top: 60px;
+}
+
+.box-2 .head{
+    margin-bottom: 30px;
 }

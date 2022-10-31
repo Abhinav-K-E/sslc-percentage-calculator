@@ -10,7 +10,19 @@ function per(){
     let e  = parseInt(document.getElementById("e_").value);
     
     let sum = eval((a*9)+(a_*8)+(b*7)+(b_*6)+(c*5)+(c_*4)+(d*3)+(d_*2)+(e*1));
+
     let percen = (sum/90)*100;
 
     window.alert("Yor percentage is " + percen + " %");
+}
+
+// for all exams
+
+total = () =>{
+    let score = document.getElementById("score").value;
+    let total = document.getElementById("total").value;
+
+    let tot_per = eval((score/total)*100);
+
+    alert("Your Percentage is : " + tot_per);
 }
